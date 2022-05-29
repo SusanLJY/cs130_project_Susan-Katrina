@@ -19,9 +19,9 @@ Consistent the style and format of
 
 ***For Susan***
 Interactive buttons:
-1. Dairy -> upload image
-2. Dairy -> save dairy button -> save the content in window.localStorage or JSON by id=date.
-3. Dairy -> allow 5 image upload
+1. Dairy -> upload image (done)
+2. Dairy -> save dairy button -> save the content in window.localStorage. (done)
+3. Dairy -> allow 3 image upload -> infinite upload, 3 preview & store allowed. (done)
 
 4. './FirstSchedule/FirstSchedule.js' -> auto loadJSON when enter the page.
 5. './FirstSchedule/FirstSchedule.js' -> change path to read & load JSON. (default to be download path? or another button to allow user to set it?)
