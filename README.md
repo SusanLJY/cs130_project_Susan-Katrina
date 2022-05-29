@@ -13,8 +13,9 @@ Consistent the style and format of
 1. './FirstSchedule/common/sample.css', which is the format of monthly planner.
 2. './Dairy/style.css', which is the format of dairy.
 3. './CoverPage/style.css', click effect of each month. (#month:click{})
-4. A tutorial classmate suggested to add some animation effect to the year bar in CoverPage, i.e., small -> big -> small. (opt.)
-5. Prepare *User Menu*.
+4. Prepare *User Menu*.
+5. A tutorial classmate suggested to add some animation effect to the year bar in CoverPage, i.e., small -> big -> small. (opt.)
+6. Accessibility: Adjust content display for narrow screens.
 
 ***For Susan***
 Interactive buttons:
