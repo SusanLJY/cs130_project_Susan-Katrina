@@ -8,9 +8,9 @@ body {
    
 }
 
-/* #m, #y{
+#m, #y{
    display: none;
-} */
+}
 
 .container {
    background: #F8EDEB;
