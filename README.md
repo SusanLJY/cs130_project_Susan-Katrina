@@ -28,4 +28,5 @@ Interactive buttons:
 
 
 **Only Problem!!!**
-Since we are using the trial version of MindFusion.Schedule library, the missing of license may let the header of planner turn to a warning of trial version. When encountering this, you can just *save and refresh* the page.
+1. Since we are using the trial version of MindFusion.Schedule library, the missing of license may let the header of planner turn to a warning of trial version. When encountering this, you can just *save and refresh* the page.
+2. To upload image, you must put the target image to the folder './Project/Dairy/images'. Otherwise, the function will crash.
