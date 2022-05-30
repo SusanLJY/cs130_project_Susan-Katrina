@@ -23,5 +23,9 @@ Interactive buttons:
 2. Dairy -> save dairy button -> save the content in window.localStorage. (done)
 3. Dairy -> allow 3 image upload -> infinite upload, 3 preview & store allowed. (done)
 
-4. './FirstSchedule/FirstSchedule.js' -> auto loadJSON when enter the page.
-5. './FirstSchedule/FirstSchedule.js' -> change path to read & load JSON. (default to be download path? or another button to allow user to set it?)
+4. './FirstSchedule/FirstSchedule.js' -> auto loadJSON when enter the page. (done)
+5. './FirstSchedule/FirstSchedule.js' -> save & load JSON in localStorage.
+
+
+**Only Problem!!!**
+Since we are using the trial version of MindFusion.Schedule library, the missing of license may let the header of planner turn to a warning of trial version. When encountering this, you can just *save and refresh* the page.
