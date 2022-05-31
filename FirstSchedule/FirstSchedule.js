@@ -53,7 +53,7 @@ const daysOfMonth = (month, year) => {
 function validateCreateItem(sender, args) {
     //checks if an item from calendar is being modified
 
-    if ((args.item.subject == "")) {
+    if ((args.item.subject == "") || (args.item.subject == "\n")) {
         // alert("HERE!");
         alert("Events cannot be be empty!");
         args.cancel = true;
