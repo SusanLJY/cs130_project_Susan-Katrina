@@ -1,6 +1,6 @@
 .mfp-planner.first-theme .mfp-selection
 {
-    background-color: #f2ebcf;
+    background-color: #fff1e6;
 }
 .mfp-popup.first-theme
 {
@@ -8,7 +8,7 @@
     box-shadow: 4px 4px 4px rgba(0,0,0,0.35);
     font-family: Verdana, Arial, Sans-Serif;
     font-size: 8pt;
-    background: #5a7444;
+    background: #a5a58d;
     border: solid 1px #e0e9e9;
 }
 .mfp-popup.first-theme .mfp-popup-header
@@ -146,6 +146,28 @@
     color: #404040;
 }
 
+#menu
+{
+    background-color: #f0efeb;
+}
+
+#main-menu, #saveButton, #loadButton
+{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mfp-bg-row
+{
+    background-color: #f0efeb;
+}
+
+.mfp-item-table
+{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .mfp-month-view.first-theme,
 .mfp-month-range-view.first-theme,
 .mfp-month-view.first-theme .mfp-header-weekdays,
@@ -158,14 +180,21 @@
 .mfp-month-range-view.first-theme .mfp-header
 {
     color: #333;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mfp-month-view.first-theme .mfp-header .mfp-title,
 .mfp-month-range-view.first-theme .mfp-header .mfp-title
 {
-      background-color: #a3c686;
+      background-color: #125914a2;
+      color: white;
       padding:10px;
 	  font-weight: 600;
+}
+
+.mfp-title
+{
+    font-size: x-large;
 }
 
 .mfp-month-view.first-theme .mfp-header .mfp-button,
@@ -176,17 +205,26 @@
 
 .mfp-month-view.first-theme .mfp-header .mfp-header-weekdays
 {
-     background-color: #5a7444;
-     color: #eaf3f3;
+     background-color: #5a7444a0;
+     font-family: 'Montserrat', sans-serif;
+     font-size: larger;
+     padding-top: 2px;
+     padding-bottom: 2px;
 }
 
 .mfp-month-view.first-theme .mfp-header-weeknumbers .mfp-weeknumbers
 {
-   color: #eaf3f3;;
+   color: #eaf3f3;
     background-color: #5a7444;
    text-align: center;
     border-right: 1px solid #a3c686;
 }
+
+.mfp-weeknumbers
+{
+    background-color: #5a7444;
+}
+
 
 .mfp-month-view.first-theme .mfp-content .mfp-week
 {
