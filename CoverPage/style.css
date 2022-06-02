@@ -8,6 +8,10 @@ body {
    
 }
 
+#m, #y{
+   display: none;
+}
+
 .container {
    background: #F8EDEB;
    color: aliceblue;
@@ -100,6 +104,10 @@ body {
 
 }
 
+#month:hover {
+   text-decoration: underline;
+}
+
 .jan {
    grid-area: jan;
 }
@@ -150,13 +158,12 @@ body {
    grid-area: dec;;
 }
 
-
 @media (max-width: 1024px) {
    .container{
       height: 100vh;
-      width: 100%;
+      width: 100vh;
       margin: 0px;
-      padding: 5px;
+      padding: 0px;
        display: grid;
        grid-template-rows: 0.125fr 0.25fr 1fr 1fr 1fr 1fr;
        grid-template-columns: 1fr 1fr 1fr;
@@ -181,9 +188,9 @@ body {
    }
 
    .container{
-       padding: 5px;
+       margin: 0px;
        display: grid;
-       grid-template-rows: 0.2fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr;
+       grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr;
        grid-template-columns: 1fr;
        grid-template-areas: 
          "jan"
@@ -199,6 +206,6 @@ body {
          "nov" 
          "dec";
        height: 100vh;
-       width: 100%;
+       width: 100vh;
    }
 }
