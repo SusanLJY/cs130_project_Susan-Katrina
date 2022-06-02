@@ -8,10 +8,6 @@ body {
    
 }
 
-#m, #y{
-   display: none;
-}
-
 .container {
    background: #F8EDEB;
    color: aliceblue;
@@ -160,8 +156,8 @@ body {
 
 @media (max-width: 1024px) {
    .container{
-      height: 100vh;
-      width: 100vh;
+      height: 100%;
+      width: 100%;
       margin: 0px;
       padding: 0px;
        display: grid;
