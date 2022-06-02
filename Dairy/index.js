@@ -213,7 +213,7 @@ const saveDairy =() =>{
     }else{
         dairyStorage = [{
             date: dairyDate,
-            text: document.document.querySelector(".textarea").value,
+            text: document.querySelector(".textarea").value,
             images: images,
         }];
         
