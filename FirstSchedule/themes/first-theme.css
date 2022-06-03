@@ -1,7 +1,7 @@
-.mfp-planner.first-theme .mfp-selection
+/* .mfp-planner.first-theme .mfp-selection
 {
     background-color: #fff1e6;
-}
+} */
 .mfp-popup.first-theme
 {
     color: #fff;
@@ -138,11 +138,11 @@
 {
     border: solid 1px #808080;
     padding: 1px;
-    background-color: #C8C8C8;
+    background-color: #b7b7a4;
 }
 .mfp-popup.first-theme .mfp-dtpicker .mfp-dtpicker-content td:hover
 {
-    background-color: #C8C8C8;
+    background-color: #b7b7a4;
     color: #404040;
 }
 
@@ -194,7 +194,14 @@
 
 .mfp-title
 {
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mfp-link 
+{
     font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mfp-month-view.first-theme .mfp-header .mfp-button,
@@ -256,4 +263,19 @@
     background-color: brown;
     opacity: 0.6;
     filter: alpha(opacity=60);
+}
+
+.mfp-bg-cell
+{
+    background-color: #f0efeb;
+}
+
+.mfp-bg-cell.mfp-padding-cell.mfp-selection
+{
+    background-color: #b7b7a4;
+}
+
+.mfp-bg-cell.mfp-selection
+{
+    background-color: #b7b7a4;
 }
