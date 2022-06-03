@@ -18,7 +18,7 @@ body {
    ". . C C"; 
    min-height: 100vh;
    padding: 50px;
-   padding-top: 50px;
+   padding-top: 25px;
    /* padding-bottom: 100px; */
    grid-row-gap: 30px;
    grid-column-gap: 5px;
@@ -49,6 +49,53 @@ article, aside, section, main, section > div{
    font-family: 'Montserrat', sans-serif;
 }
 
+.cover-menu {
+   display: grid;
+   grid-template-columns: 0.05fr 1.5fr 0.1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-areas: 
+   ". X ."
+   ". Y ."
+   ". Z ."; 
+   padding: 5px;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   grid-row-gap: 10px;
+}
+
+#to-diary {
+   grid-area: X;
+   background-color: #ddbea9;
+   padding-left: 20px;
+   box-shadow: 10px 5px 5px #d6a48a;
+}
+
+#to-diary:hover {
+   transform: scale(1.05);
+}
+
+#to-calendar {
+   grid-area: Y;
+   background-color: #ddbea9;
+   padding-left: 20px;
+   box-shadow: 10px 5px 5px #d6a48a;
+}
+
+#to-calendar:hover {
+   transform: scale(1.05);
+}
+
+#to-list {
+   grid-area: Z;
+   background-color: #ddbea9;
+   padding-left: 20px;
+   box-shadow: 10px 5px 5px #d6a48a;
+}
+
+#to-list:hover {
+   transform: scale(1.05);
+}
+
 .to-coverpage {
    grid-area: C;
    background-color: #b7b7a4;
@@ -56,6 +103,10 @@ article, aside, section, main, section > div{
    box-shadow: 10px 5px 5px #6b705c;
    padding-left: 30px;
    font-family: 'Montserrat', sans-serif;
+}
+
+.to-coverpage:hover {
+   transform: scale(1.05);
 }
 
 a.button {
