@@ -56,7 +56,8 @@ article, aside, section, main, section > div{
    grid-template-areas: 
    ". X ."
    ". Y ."
-   ". Z ."; 
+   ". Z ."
+   ". T ."; 
    padding: 5px;
    padding-top: 30px;
    padding-bottom: 20px;
@@ -93,6 +94,17 @@ article, aside, section, main, section > div{
 }
 
 #to-list:hover {
+   transform: scale(1.05);
+}
+
+#to-userGuide {
+   grid-area: T;
+   background-color: #ddbea9;
+   padding-left: 20px;
+   box-shadow: 10px 5px 5px #d6a48a;
+}
+
+#to-userGuide:hover {
    transform: scale(1.05);
 }
 
